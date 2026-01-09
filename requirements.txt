@@ -1,3 +1,9 @@
 pytest
 flake8
 pyyaml
+streamlit
+pandas
+numpy
+matplotlib
+
+
