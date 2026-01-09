@@ -1,4 +1,3 @@
-streamlit
-pandas
-numpy
-matplotlib
+pytest
+flake8
+pyyaml
