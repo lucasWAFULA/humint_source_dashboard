@@ -1,0 +1,8 @@
+task_success_rate
+corroboration_score
+report_timeliness
+handler_confidence
+deception_score
+ci_flag
+reliability_score
+scenario_probability

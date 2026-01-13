@@ -1,0 +1,25 @@
+ml_tssp_app/
+│
+├─ backend/
+│   ├─ main.py                 # FastAPI entrypoint
+│   ├─ schemas.py              # Pydantic request/response models
+│   ├─ ml/
+│   │   ├─ xgb_behavior.py     # XGBoost classifier
+│   │   ├─ shap_explainer.py  # SHAP explainability
+│   │   └─ gru_scores.py       # GRU reliability/deception
+│   ├─ optimization/
+│   │   ├─ tssp_model.py       # Pyomo optimization
+│   │   ├─ baselines.py        # deterministic & uniform solvers
+│   │   ├─ emv.py              # EMV / EVPI utilities
+│   │   └─ metrics.py          # coverage / risk / tradeoffs
+│   ├─ models/                 # saved ML models
+│   │   ├─ xgb_behavior.pkl
+│   │   └─ gru_reliability_deception/
+│   └─ logs/                   # drift & audit logs
+│       └─ gru_drift.jsonl
+│
+├─ frontend/
+│   └─ app.py                  # Streamlit dashboard
+│
+├─ requirements.txt            # pip install -r requirements.txt
+└─ README.md

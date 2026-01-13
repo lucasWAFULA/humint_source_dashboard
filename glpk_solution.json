@@ -1,0 +1,34 @@
+{
+    "Problem": [
+        {
+            "Lower bound": 3127.38445577542,
+            "Name": "unknown",
+            "Number of constraints": 2506,
+            "Number of nonzeros": 5400,
+            "Number of objectives": 1,
+            "Number of variables": 1500,
+            "Sense": "minimize",
+            "Upper bound": 3127.38445577542
+        }
+    ],
+    "Solution": [
+        {
+            "number of solutions": 0,
+            "number of solutions displayed": 0
+        }
+    ],
+    "Solver": [
+        {
+            "Error rc": 0,
+            "Statistics": {
+                "Branch and bound": {
+                    "Number of bounded subproblems": "1",
+                    "Number of created subproblems": "1"
+                }
+            },
+            "Status": "ok",
+            "Termination condition": "optimal",
+            "Time": 0.018942594528198242
+        }
+    ]
+}
